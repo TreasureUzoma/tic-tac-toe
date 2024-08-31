@@ -144,7 +144,7 @@ const checkWinner = function () {
       }
       setTimeout(() => {
         showHiddenContainers(modalBox);
-      }, 500);
+      }, 1000);
 
       return true;
     }
@@ -267,7 +267,6 @@ const computerMove = function () {
   showThinkingMessage();
   disableCellClicks();
 
-  disableCellClicks();
   setTimeout(function () {
     let selectedCellIndex = -1;
 
